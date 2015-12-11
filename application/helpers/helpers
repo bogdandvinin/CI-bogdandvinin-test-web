@@ -1,0 +1,11 @@
+<?php
+if ( ! defined('BASEPATH')) exit ('No direct script access allowed');
+class Helpers extends CI_Helpers {
+    function all_helpers(){
+        $this->load->helper('html');
+        $this->load->helper('text');
+        $this->load->helper('string');
+        $this->load->helper('captcha');
+        $this->load->view('helpers_view');
+    }
+}

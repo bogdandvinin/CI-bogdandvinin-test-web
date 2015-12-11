@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+#active{
+    color: #fffe4a;
+    border-color: #fffe4a ;
+}
+.container-fluid {
+    padding: 0px;
+    background-image: url("./image1/font15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 150px;
+}
+.row {
+    margin-left: 0px;
+}
+.container {
+    background-color: #C6C4CD;
+}
+.menu.col-sm-6.col-md-6.col-lg-6 {
+    margin-left: 4px;
+    padding: 0px;
+}
+.menu.list-inline li{
+    padding: 0px;
+}
+.btn.btn-default:hover {
+    background-color: gold;
+}
+.newsname.col-sm-6.col-md-6.col-lg-6 {
+    margin-left: 40%;
+}
+.newsinfo.col-sm-6.col-md-6.col-lg-6 {
+    padding: 0px;
+    margin-left: 40%;
+}
+.editname.col-sm-6.col-md-6.col-lg-6 {
+    margin-left: 40%;
+}
+.editcontent.col-sm-6.col-md-6.col-lg-6 {
+    margin-left: 25%;
+}
+.contheader {
+    margin: 0px;
+    padding: 0px;
+}
+.imgcontent{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: -80px;
+    overflow: hidden;
+}
+
+.conttext1 {
+    width: auto;
+    height: auto;
+    margin-left: 2px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+footer {
+    position: fixed;
+    background-color: #4DA13F;
+    height: 30px;
+    left:0 ; bottom:0 ;
+    width: 100%
+}
+footer p {
+    margin: 7px;
+    font-size: 11px;
+    color: black;
+}

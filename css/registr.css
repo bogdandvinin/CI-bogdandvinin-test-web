@@ -1,0 +1,47 @@
+body {
+
+}
+.container-fluid {
+    padding: 0px;
+    height: 150px;
+    background-color: #566460;
+    overflow: hidden;
+}
+
+.btn.btn-default:hover {
+    background-color: gold;
+}
+.menu.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+    margin-left: -10px;
+}
+.menu.col-xs-12.col-sm-12.col-md-12.col-lg-12 a {
+    color: white;
+    border-color: white;
+    margin-top: 3px;
+}
+.container {
+    padding: 0px;
+}
+.content.col-xs-4.col-sm-4.col-md-4.col-lg-4 {
+    margin-left: 45%;
+    padding: 0px;
+}
+.info.col-xs-2.col-sm-2.col-md-2.col-lg-2 {
+    margin-left: 45%;
+}
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+    position: fixed;
+    background-color: #566460;
+    height: 30px;
+    left:0 ; bottom:0 ;
+    width: 100%
+}
+footer p {
+    margin: 7px;
+    font-size: 11px;
+    color: white;
+}

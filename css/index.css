@@ -1,0 +1,148 @@
+body {
+
+}
+#active {
+    color: #fffe4a;
+    border-color: #fffe4a ;
+}
+.container-fluid {
+    background-color: #566460;
+    padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    overflow: hidden;
+}
+.row {
+    margin: 0px;
+}
+.menu.col-sm-6.col-md-6.col-lg-6 {
+    margin: 0px;
+}
+.menu.list-inline {
+    margin-left: -10px;
+}
+.menu.list-inline li{
+    padding: 0px;
+    margin-right: 1px;
+}
+.menu.list-inline li a{
+    color: white;
+    border-color: white;
+}
+.reg.col-sm-2.col-md-2.col-lg-2{
+    margin-top: -65px;
+    float:right;
+    padding: 0px;
+    margin-right: 25px;
+    width: 150px;
+}
+.reglist {
+    float: right;
+    margin-right: 20px;
+}
+#a_reg {
+    color: white;
+    text-decoration: none;
+}
+#a_reg p {
+    margin: 0px;
+    padding: 0px;
+}
+#a_reg p:hover {
+    color: #63a1d6;
+}
+li{
+    list-style-type: none;
+}
+.info.col-md-1 {
+    float: right;
+    color:white;
+    margin-top: -50px;
+    width: 250px;
+}
+.container.main {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.row.content.news {
+    background-color: #4DA13F;
+    height: 30px;
+}
+.row.content.news h3 {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.conttext {
+    height: auto;
+    top:0px;
+    right: 0px;
+}
+.conttext p {
+    margin-top:-101px;
+    font-size:18px;
+    height: auto;
+    word-break: keep-all;
+    white-space: pre-wrap;
+}
+.row.user_comments p{
+    height: auto;
+    font-size: 13px;
+    word-break: keep-all;
+    white-space: pre-wrap;
+}
+.pagination.pagination-sm a{
+    color:white;
+}
+.container-fluid.end {
+    bottom: -1px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 200px;
+}
+.row.col-xs-12.col-sm-12.col-md-12.col-lg-12.footercontent {
+    background-color: #555555;
+    position: absolute;
+    height: 100%;
+    margin: 0px;
+}
+.row.col-xs-12.col-sm-12.col-md-12.col-lg-12.footer {
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #1a1a1a;
+}
+.container-fluid.end {
+    bottom: -1px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 200px;
+}
+.row.col-xs-12.col-sm-12.col-md-12.col-lg-12.footercontent {
+    background-color: #566460;
+    position: absolute;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.row.col-xs-12.col-sm-12.col-md-12.col-lg-12.footer {
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #1a1a1a;
+}
+footer {
+    position: absolute;
+    height: 30px;
+    bottom:0 ;
+    width: 100%;
+    padding-left: 8px;
+}
+footer p {
+    margin: 7px;
+    font-size: 11px;
+    color: white;
+}
+
